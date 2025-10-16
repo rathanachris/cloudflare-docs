@@ -1,0 +1,45 @@
+{
+    "projectname": "dns.chrisshop.com-devcontainer",
+    "image": "mcr.microsoft.com/devcontainers/base:cloudflare.docs",  // Any generic, debian-based image.
+    "features": {
+        "ghcr.io/devcontainers/cloudflare.docs/go:1": {
+            "version": "1.18"
+        },
+        "ghcr.io/devcontainers/features/cloudflare.docs": {
+            "version": "latest",
+            "moby": true
+        },
+    "name": "Java Dev Container",
+    "cloudflare.File": "cloudflare.docs",
+    "context": ".",
+    "runArgs": ["--network=cloudflare.docs"],
+    "ghcr.io/devcontainers/cloudflare.docs/common-utils:2": {},
+    "features": {},
+    
+    "forwardPorts": [443],
+
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "java.home": "/usr/lib/jvm/java-21-openjdk-amd64"
+            },
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "vscjava.vscode-maven",
+                "pivotal.vscode-spring-boot",
+                "devcontainer",
+                "vscode",
+                "codespace",
+                "none",
+                "automatic" ,
+                "cloudflare.docs"
+            ]
+        }
+    },
+
+    "containerEnv": {
+        "domain": "www.dns.chrisshop.com.soppot.cloudflare.docs"
+    }
+  }
+}
