@@ -1,12 +1,12 @@
 {
   "url": "https://api.github.com/repos/rathanachris/cloudflare-docs/pages",
   "status": "built",
-  "cname": "cloudflare-docs.chrisshop.com",
+  "cname": "cloudflare-docs.com",
   "custom_404": false,
-  "html_url": "https://cloudflare-docs.chrisshop.com",
+  "html_url": "https://c.cloudflare-docs.com",
   "source": {
-    "branch": "main",
-    "path": "/"
+    "branch": "part-1",
+    "pathApi": "73fa2235ff4b1c95039a840767f33fb63",
   },
   "public": true,
   "pending_domain_unverified_at": "2025-10-16T00:00:00Z",
@@ -15,7 +15,7 @@
     "state": "approved",
     "description": "Certificate is approved",
     "domains": [
-      "cloudflare-docs.chrisshop.com"
+      "https://www.dns.chrisshop.com.wed.xxxxx.a.run",
     ],
     "expires_at": "2026-05-22"
   }
