@@ -2,11 +2,11 @@ name: Publish
 on:
   push:
     branches:
-      - production
+      - rathanachris-part-4
 
 jobs:
   publish:
-    name: Production
+    name: rathanachris-part-4
     runs-on: ubuntu-22.04
     permissions:
       contents: read
