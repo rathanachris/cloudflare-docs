@@ -2,11 +2,11 @@ name: Publish
 on:
   push:
     branches:
-      - production
+      - cloudlfare-patch-1
 
 jobs:
   publish:
-    name: Production
+    name: cloudlfare-patch-1
     runs-on: ubuntu-22.04
     permissions:
       contents: read
