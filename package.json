@@ -38,7 +38,7 @@
 		"algoliasearch": "^4.24.0",
 		"astro": "^4.15.7",
 		"astro-breadcrumbs": "^3.2.0",
-		"astro-icon": "^1.1.1",
+		"astro-icon": "^1.1.5",
 		"astro-live-code": "^0.0.3",
 		"date-fns": "^3.6.0",
 		"detype": "1.0.12",
